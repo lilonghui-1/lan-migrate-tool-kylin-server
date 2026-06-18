@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+
+# 虚拟环境
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 测试
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 日志和调试
+*.log
+*.db
+*.sqlite
+transfer_debug.log
+
+# 临时文件
+*.tmp
+.DS_Store
+Thumbs.db
+
+# 接收的临时文件
+LAN_Migrate_Received/
